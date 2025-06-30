@@ -1,0 +1,52 @@
+2025-06-30 11:32:36,344 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 11:32:36,348 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 11:32:40,879 [INFO] [DOC_CONVERTER] 开始转换: 中南林业科技大学涉外学院社会公益学院2024年度奖励分配办法.docx
+2025-06-30 11:32:43,331 [INFO] [DOC_CONVERTER] 转换成功: C:/Users/20240471/Desktop/临时/中南林业科技大学涉外学院社会公益学院2024年度奖励分配办法.pdf
+2025-06-30 13:37:20,000 [CRITICAL] [DOC_CONVERTER] 应用程序崩溃: '_tkinter.tkapp' object has no attribute '_init_config'
+Traceback (most recent call last):
+  File "C:\Users\20240471\gitcode\main.py", line 45, in <module>
+    app = ConverterApp()
+  File "C:\Users\20240471\gitcode\src\app.py", line 27, in __init__
+    self._init_config()
+  File "C:\Program Files\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute '_init_config'
+2025-06-30 13:52:07,788 [CRITICAL] [DOC_CONVERTER] 应用程序崩溃: '_tkinter.tkapp' object has no attribute '_init_config'
+Traceback (most recent call last):
+  File "C:\Users\20240471\gitcode\main.py", line 45, in <module>
+    app = ConverterApp()
+  File "C:\Users\20240471\gitcode\src\app.py", line 26, in __init__
+    self._init_config()
+  File "C:\Program Files\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute '_init_config'
+2025-06-30 14:00:06,815 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:00:06,815 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:00:14,355 [INFO] [DOC_CONVERTER] 开始转换: 中南林业科技大学涉外学院社会公益学院2024年度奖励分配办法.docx
+2025-06-30 14:00:16,167 [INFO] [DOC_CONVERTER] 转换成功: C:/Users/20240471/Desktop/临时/中南林业科技大学涉外学院社会公益学院2024年度奖励分配办法.pdf
+2025-06-30 14:00:39,646 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:00:39,646 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:05:07,311 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:05:07,311 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:05:18,223 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:05:18,224 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:08:26,536 [INFO] [DOC_CONVERTER] 成功加载配置文件: C:\Users\20240471\AppData\Roaming\DocConverter\config.yaml
+2025-06-30 14:08:26,537 [CRITICAL] [DOC_CONVERTER] 应用程序崩溃: 'Logger' object has no attribute 'init_logger'
+Traceback (most recent call last):
+  File "C:\Users\20240471\gitcode\main.py", line 44, in <module>
+    init_system()
+  File "C:\Users\20240471\gitcode\main.py", line 35, in init_system
+    logger.init_logger(log_dir=log_dir, max_size=log_size)
+AttributeError: 'Logger' object has no attribute 'init_logger'
+2025-06-30 14:19:24,839 [INFO] [DOC_CONVERTER] 成功加载配置文件: C:\Users\20240471\AppData\Roaming\DocConverter\config.yaml
+2025-06-30 14:19:24,839 [INFO] [DOC_CONVERTER] 系统初始化完成 | Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)]
+2025-06-30 14:19:24,882 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:19:24,882 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:21:12,229 [INFO] [DOC_CONVERTER] 成功加载配置文件: C:\Users\20240471\AppData\Roaming\DocConverter\config.yaml
+2025-06-30 14:21:12,229 [INFO] [DOC_CONVERTER] 系统初始化完成 | Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)]
+2025-06-30 14:21:12,285 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:21:12,285 [INFO] [DOC_CONVERTER] 启动GUI应用程序
+2025-06-30 14:22:06,495 [INFO] [DOC_CONVERTER] 成功加载配置文件: C:\Users\20240471\AppData\Roaming\DocConverter\config.yaml
+2025-06-30 14:22:06,495 [INFO] [DOC_CONVERTER] 系统初始化完成 | Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)]
+2025-06-30 14:22:06,542 [INFO] [DOC_CONVERTER] 应用程序初始化完成
+2025-06-30 14:22:06,542 [INFO] [DOC_CONVERTER] 启动GUI应用程序

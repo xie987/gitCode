@@ -1,0 +1,5 @@
+logging:
+  level: INFO  # DEBUG/INFO/WARNING/ERROR/CRITICAL
+  console: true
+  file: true
+  path: logs   # 日志目录路径
